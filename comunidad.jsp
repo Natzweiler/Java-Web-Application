@@ -1,0 +1,64 @@
+<%-- 
+    Document   : comunidad
+    Created on : 2 nov 2025, 21:25:19
+    Author     : Gael
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <body>
+        <%@include file = "/WEB-INF/navbar.jspf"%>
+    <header>
+        <h1>Una comunidad que crece día con día</h1>
+    </header>
+
+    <main>
+        <section>
+            <h3 style="text-align:center;">Bienvenidos los nuevos usuarios</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Nombre</th>
+                        <th>Pseudónimo</th>
+                        <th>Fecha de Registro</th>
+                        <th>Tipo de cuenta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="https://www.google.com/search?sca_esv=acd54d7c3ce1357e&udm=2&fbs=AIIjpHx4nJjfGojPVHhEACUHPiMQht6_BFq6vBIoFFRK7qchKEWEvuc0Hbw31oEI7c8o3y7EH2T73cHYgsE1-NZATxMpGR5vj5F1FSpJQGl9M4am3709kXxFlYHA-KUl_i_ojuHjhPnvCGhl9PIxIgg2nqcDG0inDr3N5ArjmuEIhqykj8RspI4JjUxWh3O--sbBD-vpq8v9BdjZHNLabGDlBEIO43Bn1w&q=user&sa=X&ved=2ahUKEwimmaWL7IGQAxX0NEQIHSHZJrMQtKgLegQIFBAB&biw=1366&bih=599&dpr=1#vhid=S_5Gxz3Z7xze_M&vssid=mosaic" alt="user"></td>
+                        <td>Hola soy yo <span>ola@gmail.com</span></td>
+                        <td>Yo</td>
+                        <td>11 de septiembre del 2025</td>
+                        <td>Premium</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://www.google.com/search?sca_esv=acd54d7c3ce1357e&udm=2&fbs=AIIjpHx4nJjfGojPVHhEACUHPiMQht6_BFq6vBIoFFRK7qchKEWEvuc0Hbw31oEI7c8o3y7EH2T73cHYgsE1-NZATxMpGR5vj5F1FSpJQGl9M4am3709kXxFlYHA-KUl_i_ojuHjhPnvCGhl9PIxIgg2nqcDG0inDr3N5ArjmuEIhqykj8RspI4JjUxWh3O--sbBD-vpq8v9BdjZHNLabGDlBEIO43Bn1w&q=user&sa=X&ved=2ahUKEwimmaWL7IGQAxX0NEQIHSHZJrMQtKgLegQIFBAB&biw=1366&bih=599&dpr=1#vhid=S_5Gxz3Z7xze_M&vssid=mosaic" alt="user"></td>
+                        <td>Ojo loco moddy <span>normalmody@gmail.com</span></td>
+                        <td>El ojos</td>
+                        <td>09 de agosto del 2025</td>
+                        <td>Básica</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://www.google.com/search?sca_esv=acd54d7c3ce1357e&udm=2&fbs=AIIjpHx4nJjfGojPVHhEACUHPiMQht6_BFq6vBIoFFRK7qchKEWEvuc0Hbw31oEI7c8o3y7EH2T73cHYgsE1-NZATxMpGR5vj5F1FSpJQGl9M4am3709kXxFlYHA-KUl_i_ojuHjhPnvCGhl9PIxIgg2nqcDG0inDr3N5ArjmuEIhqykj8RspI4JjUxWh3O--sbBD-vpq8v9BdjZHNLabGDlBEIO43Bn1w&q=user&sa=X&ved=2ahUKEwimmaWL7IGQAxX0NEQIHSHZJrMQtKgLegQIFBAB&biw=1366&bih=599&dpr=1#vhid=S_5Gxz3Z7xze_M&vssid=mosaic" alt="user"></td>
+                        <td>Cuphead <span>copaCabeza@gmail.com</span></td>
+                        <td>El mejor juego</td>
+                        <td>07 de agosto del 2025</td>
+                        <td>Premium</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://www.google.com/search?sca_esv=acd54d7c3ce1357e&udm=2&fbs=AIIjpHx4nJjfGojPVHhEACUHPiMQht6_BFq6vBIoFFRK7qchKEWEvuc0Hbw31oEI7c8o3y7EH2T73cHYgsE1-NZATxMpGR5vj5F1FSpJQGl9M4am3709kXxFlYHA-KUl_i_ojuHjhPnvCGhl9PIxIgg2nqcDG0inDr3N5ArjmuEIhqykj8RspI4JjUxWh3O--sbBD-vpq8v9BdjZHNLabGDlBEIO43Bn1w&q=user&sa=X&ved=2ahUKEwimmaWL7IGQAxX0NEQIHSHZJrMQtKgLegQIFBAB&biw=1366&bih=599&dpr=1#vhid=S_5Gxz3Z7xze_M&vssid=mosaic" alt="user"></td>
+                        <td>Hollow Knight<span>Silksong@gmail.com</span></td>
+                        <td>Silksong</td>
+                        <td>15 de agosto del 2025</td>
+                        <td>Básica</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+        <%@include file ="/WEB-INF/footer.jspf" %>
+</body>
+</html>
